@@ -1,0 +1,39 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+     "responses": ["Halo!", "Hai", "Halo, ada yang bisa saya bantu?", "Halo selamat datang", "Hai Kawan"]
+    },
+    {"tag": "bye",
+     "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!"]
+    },
+    {"tag": "nama",
+     "patterns": ["nama kamu siapa?", "lu siapa?", "siapa sih lo?", "lu sape ?", "nama lo sape dah ?", "nama?"],
+     "responses": ["Namaku Ngopy, salam kenal kak!", "Halo, aku Ngopy!", "Kenalin, aku NgoPy!"]
+    },
+    {"tag": "pekerjaan",
+     "patterns": ["lu ngapain?", "pekerjaan kamu apa?", "lu kerja apa?", "tugas kamu apa?", "tugas lo ngapain?"],
+     "responses": ["Aku bantu kak Afif dalam mengelola channel NgodingPython", "Tugasku jadi asisten di komunitas NgodingPython"]
+    },
+    {"tag": "ngodingpython",
+    "patterns": ["emang ngodingpython apa si?", "apa tuh ngodingpython?", "emang ngoding python apa sih?", "wah apa tuh ngoding python?", "ngodingpython emang apa?"],
+    "responses": ["NgodingPython adalah sebuah channel youtube yang diciptakan oleh kak Afif untuk sharing mengenai Python, Pemrograman dan yang berkaitan dengan itu kak "]
+    },
+    {"tag": "ngodingpython_typo",
+    "patterns": ["emang ngodingphython apa ?", "apaan si ngodingpiton?", "emang ngoding phyton apa sih?", "wah apa tuh ngoding piton?", "ngodingpithon emang apa?", "ngodingpiyon itu apa sih"],
+    "responses": ["NgodingPython kaak, jangan bikin emosi deh", "Typo kak, NgodingPython kali maksudnya"]
+    },
+    {"tag": "youtube",
+     "patterns": ["channel nya bisa diliat dimana?", "mana linknya?", "minta link dong!", "youtube nya apa?", "dimana urlnya?"],
+     "responses": ["Bisa dilihat di https://youtube.com/NgodingPython, jangan lupa subscribe ya kak!", "Ini kak link nya https://youtube.com/NgodingPython. Disubscribe ya kak!"]
+    },
+    {"tag": "komunitas",
+     "patterns": ["kalau mau tanya-tanya kemana ya?", "ada komunitasnya ga?", "ada grupnya ga?", "grup nya apa?", "kalau mau nanya kodingan kemana ya?", "bisa bantu kodingan ga?", "bisa bantuin ngoding?"],
+     "responses": ["Langsung aja join ke telegram komunitas NgodingPython kak disini https://t.me/NgodingPython", "Boleh join kesini kak https://t.me/NgodingPython"]
+    },
+    {"tag": "kemampuan",
+     "patterns": ["kamu bisa apa?", "apa yang bisa anda lakukan?", "kamu bisa ngapain aja?", "lo bisa ngapain?", "apa kemampuan lo?"],
+     "responses": ["Kakak bisa tanya-tanya nama aku, apa yang aku lakukan dan yang berhubungan dengan channel NgodingPython", "Pokoknya yang berhubungan sama NgodingPython kak :)"]
+    }
+]
+}
